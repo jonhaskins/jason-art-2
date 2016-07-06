@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Sahitya' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+    <div class = "container">
+        <div class = "mast">
+            <div class = "m_1">
+                <div class = "m_1_left float_left"></div>
+                <div class = "m_1_right float_left">
+                    <a href="https://www.facebook.com"><img class = "icon" src="./images/fb_icon.png" alt=""></a>
+                    <a href=""><img class = "icon" src="./images/twitter_icon.png" alt=""></a>
+                    <img class = "icon" src="./images/insta2_icon.png" alt="">
+
+
+                </div>
+                <div class = "clear"></div>
+            </div>
+            <div class = "m_2">
+                <div class = "m_2_left">
+                    <div class = "logo">
+                        <div class = "main_logo float_left">CORRIDOR</div>
+                        <div class = "main_logo_h float_left"><i>24</i></div>
+                    </div>
+                </div>
+                <div class = "m_2_right">
+                    <ul class = "nav_bar">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="bio.html">BIO</a></li>
+                        <li><a href="gallery.html">GALLERY</a>
+<!--                         <ul>
+                            <li>CERAMIC</li>
+                            <li>WATERCOLOR</li>
+                            <li>CANVAS</li>
+                        </ul>
+ -->                        </li>
+
+                        <li><a href="wip.html">W.I.P.</a></li>
+                        <li><a href="purchase.html">PURCHASE</a></li>
+                        <li><a href="contact_info.html">CONTACT INFO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class ="contact_info_content">
+            <div class="contact_info_content_1">
+                <div class="contact_info_content_1_hours">
+                   <!--  OPEN:
+                    MON - FRI
+                    (9AM - 5PM) -->
+                </div>
+                <div class="contact_info_content_1_phone">
+                    <!-- PHONE: (559) 123 - 4567 -->
+                </div>
+                <div class="contact_info_content_1_email">
+                    <!-- EMAIL: ARTIST@CORRIDOR24.COM -->
+                </div>
+            </div>
+            <div class="contact_info_content_2">
+                <div class="contact_info_content_2_address">
+                    CORRIDOR 24 <br>
+                    700 VAN NESS AVE, FRESNO CA<br><br>
+                    OPEN:
+                    MON - FRI
+                    (9AM - 5PM)<br>
+                    PHONE: (559) 123 - 4567<br>
+                    EMAIL: ARTIST@CORRIDOR24.COM
+                </div>
+                <div class="contact_info_content_2_map">
+
+
+                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+                    <div style='overflow:hidden;height:400px;width:400px;'>
+                        <div id='gmap_canvas' style='height:400px;width:400px;'></div>
+                        <div>
+                            <small><a href="http://embedgooglemaps.com">embed google maps</a></small>
+                        </div>
+                        <div>
+                            <small><a href="https://privacypolicygenerator.info">privacy policy example</a></small>
+                        </div>
+                            <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+                    </div>
+                    <script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(36.7320617,-119.785755),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(36.7320617,-119.785755)});infowindow = new google.maps.InfoWindow({content:'<strong>Corridor 24</strong><br>700 Van Ness, Fresno, CA<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class = "footer">
+        <div class="f_1">
+            <ul>
+                <li>CORRIDOR 24</li>
+                <li>700 VAN NESS AVE, FRESNO CA</li>
+                <li>(559) 123 - 4567</li>
+                <li>9AM - 5PM</li>
+            </ul>
+        </div>
+<!--         <div class="f_2">
+                    <a href="https://www.facebook.com"><img class = "f_icon" src="./images/fb_icon.png" alt=""></a>
+                    <a href=""><img class = "f_icon" src="./images/twitter_icon.png" alt=""></a>
+                    <img class = "f_icon" src="./images/insta2_icon.png" alt="">
+        </div>
+        <div class="f_3">
+
+        </div> -->
+
+    </div>
+</body>
+</html>
